@@ -1,0 +1,43 @@
+.formContainer form .formElement {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+  
+.formContainer form .formElement input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #444;
+    background: #f2f2f2;
+}
+
+.formContainer form .formElement input:focus {
+    outline-color: #1881ef;
+}
+
+.formContainer form .formElement input:focus + label {
+    transform: translate(-10px, -15px);
+    font-size: 14px;
+    background: none;
+}
+
+.formContainer form .formElement label {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    font-size: 12px;
+    padding: 5px;
+    background: #f2f2f2;
+    transition: all 0.2s ease-in-out;
+}
+
+.formContainer form .formElement .errorMsg {
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    font-size: 13px;
+    color: #f00;
+    text-align: left;
+    padding-left: 5px;
+}

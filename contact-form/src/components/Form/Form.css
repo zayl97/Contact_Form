@@ -1,0 +1,48 @@
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 50px;
+}
+  
+.formContainer form .submitBtn {
+  padding: 10px;
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  background: #1881ef;
+  outline: 2px solid #1881ef;
+  color: #fff;
+  border: 0;
+  transition: all 0.2s ease-in-out;
+}
+.formContainer form .submitBtn:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #1881ef;
+  box-shadow: inset 3px 3px 10px -3px #111;
+}
+
+.formContainer .submitMsg {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  left: 0;
+  bottom: -120px;
+  line-height: 10px;
+  background: #39b922;
+  color: #fff;
+  text-shadow: 1px 1px 3px #333;
+  box-shadow: 5px 10px 25px -10px #555;
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 0.3s ease-in-out;
+}
+.formContainer .submitMsg.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+@media screen and (max-width: 768px) {
+  
+}
