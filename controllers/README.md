@@ -12,7 +12,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-You have to run this command to launch database scripts of the app.\
+You have to run this command to launch database scripts of the app.
 
 ### `npm run devStart`
 
