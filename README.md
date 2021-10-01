@@ -6,11 +6,11 @@ I created this Contact Form to train my React JS skills and also to learn testin
 
 ### Backend
 
-To see how the backend works, please visit [Controller](https://github.com/zayl97/Contact_Form/tree/main/controllers) repo.
+To see how the backend works, please visit [Controller](https://github.com/zayl97/Contact_Form/tree/main/controllers) section.
 
 ### Frontend
 
-To see the main part of the app, please visit [Contact Form](https://github.com/zayl97/Contact_Form/tree/main/contact-form)
+To see the main part of the app, please visit [Contact Form](https://github.com/zayl97/Contact_Form/tree/main/contact-form) section.
 
 
 ## Disclaimer
